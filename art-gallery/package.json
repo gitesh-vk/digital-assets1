@@ -1,0 +1,90 @@
+{
+  "name": "react-sneakers-app",
+  "version": "1.1.6",
+  "private": true,
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "@primno/dpapi": "^1.1.2",
+    "@sendgrid/mail": "^8.1.3",
+    "axios": "^1.4.0",
+    "bcryptjs": "^2.4.3",
+    "browserify-fs": "^1.0.0",
+    "cloudinary": "^2.2.0",
+    "concurrently": "^8.2.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.7",
+    "ethers": "^6.13.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^3.1.2",
+    "jwt-encode": "^1.0.1",
+    "log": "^6.0.0",
+    "log-node": "^8.0.3",
+    "miragejs": "^0.1.47",
+    "mockman-js": "^1.1.5",
+    "mongoose": "^8.4.1",
+    "paytmchecksum": "^1.5.1",
+    "razorpay": "^2.8.6",
+    "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.8.0",
+    "react-parallax-tilt": "^1.7.139",
+    "react-player": "^2.12.0",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
+    "request": "^2.88.2",
+    "snore-log": "^2.2.7",
+    "sqlite3": "^5.1.7",
+    "uuid": "^8.3.2",
+    "validator": "^13.12.0"
+  },
+  "scripts": {
+   "start": "react-scripts start",
+    "build": "react-scripts build",
+    "dev": "concurrently \"node server/index.js\" \"react-scripts start\"",
+    "start": "concurrently \"node server/index.js\" \"react-scripts start\"",
+    "build": "concurrently \"node server/index.js\" \"react-scripts build\"",
+    "test": "concurrently \"node server/index.js\" \"react-scripts test\"",
+    "eject": "concurrently \"node server/index.js\" \"react-scripts eject\""
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "Developed a responsive e-commerce platform for \"Art Waves,\" a digital art marketplace, using ReactJS. The website allows artists to showcase and sell their digital artwork, while customers can browse, purchase, and securely checkout.",
+  "main": "index.js",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "gh-pages": "^6.3.0",
+    "hardhat": "^2.22.19"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roman090421/art-gallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": " ",
+  "bugs": {
+    "url": "https://github.com/roman090421/art-gallery/issues"
+  },
+  "homepage": "/"
+}
