@@ -27,20 +27,26 @@ File Location  root\contracts\DigitalAssetMarketplace.sol
 
 ## 🏗️ Deployment Guide
 
-1️⃣ Install Dependencies
-```shell
-npm install ( perform in the root folder as well as in the frontend folder )
-```
 
-2️⃣ Compile and Deploy Smart Contract (Hardhat)
+1️⃣ Install Dependencies and Compile and Deploy Smart Contract (Hardhat) -- in root folder
 
 ```shell
+npm install
 npx hardhat compile
 npx hardhat run scripts/deploy.js --network sepolia
 ```
+
 Save the deployed contract address for frontend integration.
 
 Replace this contract address with the one present in the .env file.
+
+2️⃣  Install Dependencies -- in art-gallery folder
+
+```shell
+npm install
+npm run start 
+```
+
 
 
 ## 💳 Web3 Wallet Integration
